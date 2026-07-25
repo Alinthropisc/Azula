@@ -16,20 +16,34 @@ find_package(Boost 1.91 REQUIRED COMPONENTS
 )
 
 
+
 add_executable(azula main.cpp
-        azula-crypto/lib/permutation.hh
         azula-crypto/lib/blackrock.hh
         azula-crypto/lib/blackrock.cc
-        azula-crypto/lib/blackrock2.cc
-        azula-crypto/lib/blackrock2.hh
-        azula-crypto/tests/test_blackrock.cc
-        azula-crypto/lib/primes.cc
-        azula-crypto/lib/primes.hh
+        azula-crypto/lib/siphash.cc
+        azula-crypto/lib/siphash.hh
+        azula-crypto/lib/base64.hh
         azula-crypto/lib/lcg.cc
-        azula-crypto/lib/lcg.hh)
+        azula-crypto/lib/lcg.hh
+        azula-crypto/lib/base64.hh
+        azula-crypto/lib/base64.cc
+        azula-crypto/lib/xring.hh
+        azula-crypto/lib/xring.cc
+)
 
+add_executable(azula_crypto_tests
+        azula-crypto/tests/crypto_test.cc
+        azula-crypto/lib/blackrock.cc
+        azula-crypto/lib/siphash.cc
+        azula-crypto/lib/lcg.cc
+        azula-crypto/lib/base64.cc
+        azula-crypto/lib/xring.cc
+)
 
-
+target_link_libraries(azula_crypto_tests PRIVATE
+        GTest::gtest_main          # ← правильный target от GoogleTest
+        # если используешь gmock — добавь GTest::gmock
+)
 include(FetchContent)
 FetchContent_Declare(
     googletest

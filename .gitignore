@@ -2,6 +2,7 @@
 
 
 /masscan-master
+/nmap-master
 /build
 /cmake-build-debug
 .cache

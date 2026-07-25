@@ -35,10 +35,6 @@ name = "azula-net"
 version = "0.1.0"
 
 [[package]]
-name = "azula-output"
-version = "0.1.0"
-
-[[package]]
 name = "azula-proto"
 version = "0.1.0"
 
@@ -47,5 +43,13 @@ name = "azula-scan"
 version = "0.1.0"
 
 [[package]]
+name = "azula-scripts"
+version = "0.1.0"
+
+[[package]]
 name = "azula-services"
+version = "0.1.0"
+
+[[package]]
+name = "azula-support"
 version = "0.1.0"
