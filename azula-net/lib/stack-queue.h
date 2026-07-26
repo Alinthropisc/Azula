@@ -1,7 +1,7 @@
 #ifndef PACKET_QUEUE_H
 #define PACKET_QUEUE_H
-#include "../../masscan-master/src/rte-ring.h"
-#include "../../azula-engine/lib/massip-addr.h"
+#include "../../azula-core/lib/rte-ring.h"
+#include "../../masscan-master/src/massip-addr.h"
 #include <limits.h>
 struct stack_src_t;
 struct Adapter;

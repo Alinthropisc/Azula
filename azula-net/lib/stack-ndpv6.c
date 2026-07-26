@@ -3,7 +3,7 @@
 #include "../../masscan-master/src/stack-src.h"
 #include "util-checksum.h"
 #include "../../masscan-master/src/rawsock-adapter.h"
-#include "rawsock.h"
+#include "../../masscan-master/src/rawsock.h"
 #include "util-logger.h"
 #include <string.h>
 

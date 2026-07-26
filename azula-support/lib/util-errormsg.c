@@ -1,6 +1,6 @@
 #include "../../masscan-master/src/util-errormsg.h"
 #include "crypto-siphash24.h"
-#include "../../masscan-master/src/massip-addr.h"
+#include "../../azula-engine/lib/massip-addr.h"
 #include <stdarg.h>
 #include <stdio.h>
 

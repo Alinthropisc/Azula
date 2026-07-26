@@ -1,8 +1,8 @@
 #include "../../masscan-master/src/proto-mc.h"
 #include "proto-banner1.h"
-#include "unusedparm.h"
+#include "../../azula-support/lib/unusedparm.h"
 #include "../../masscan-master/src/masscan-app.h"
-#include "../../azula-net/lib/stack-tcp-api.h"
+#include "../../masscan-master/src/stack-tcp-api.h"
 #include "output.h"
 #include <ctype.h>
 #include <string.h>

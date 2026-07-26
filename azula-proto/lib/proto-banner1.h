@@ -5,8 +5,8 @@
 #include <stdio.h>
 #include "../../azula-engine/lib/masscan-app.h"
 #include "../../masscan-master/src/proto-banout.h"
-#include "../../masscan-master/src/proto-x509.h"
-#include "../../masscan-master/src/proto-spnego.h"
+#include "proto-x509.h"
+#include "proto-spnego.h"
 
 struct stack_handle_t;
 struct Banner1;

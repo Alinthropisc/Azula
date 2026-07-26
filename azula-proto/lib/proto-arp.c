@@ -1,9 +1,9 @@
 #include "../../masscan-master/src/proto-arp.h"
 #include "../../masscan-master/src/proto-preprocess.h"
-#include "util-logger.h"
+#include "../../masscan-master/src/util-logger.h"
 #include "output.h"
-#include "../../azula-engine/lib/masscan-status.h"
-#include "unusedparm.h"
+#include "../../masscan-master/src/masscan-status.h"
+#include "../../azula-support/lib/unusedparm.h"
 
 
 

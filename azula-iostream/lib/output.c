@@ -40,7 +40,7 @@
 #include "../../masscan-master/src/pixie-file.h"
 #include "../../masscan-master/src/pixie-sockets.h"
 #include "../../masscan-master/src/util-malloc.h"
-#include "../../azula-support/lib/util-errormsg.h"
+#include "../../masscan-master/src/util-errormsg.h"
 #include "../../masscan-master/src/util-logger.h"
 
 #include <limits.h>

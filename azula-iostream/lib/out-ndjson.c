@@ -1,7 +1,7 @@
 #include "../../masscan-master/src/output.h"
 #include "../../masscan-master/src/masscan-app.h"
 #include "../../masscan-master/src/masscan-status.h"
-#include "../../azula-support/lib/util-safefunc.h"
+#include "../../masscan-master/src/util-safefunc.h"
 #include <ctype.h>
 
 

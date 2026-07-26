@@ -13,7 +13,7 @@
 */
 #include "rawsock.h"
 #include "util-safefunc.h"
-#include "../../masscan-master/src/massip-parse.h"
+#include "../../azula-engine/lib/massip-parse.h"
 
 /*****************************************************************************
  *****************************************************************************/

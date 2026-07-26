@@ -1,8 +1,8 @@
 #include "../../masscan-master/src/proto-ssh.h"
 #include "proto-banner1.h"
-#include "unusedparm.h"
+#include "../../azula-support/lib/unusedparm.h"
 #include "../../masscan-master/src/masscan-app.h"
-#include "../../azula-net/lib/stack-tcp-api.h"
+#include "../../masscan-master/src/stack-tcp-api.h"
 #include <ctype.h>
 
 #define PAYLOAD_BANNER  "SSH-2.0-OPENSSH_7.9\r\n"

@@ -7,7 +7,7 @@
 #include "rawsock.h"
 #include "util-safefunc.h"
 #include "util-malloc.h"
-#include "../../masscan-master/src/massip-parse.h"
+#include "../../azula-engine/lib/massip-parse.h"
 #include "util-logger.h"
 
 #if defined(__APPLE__) || defined(__FreeBSD__) || defined(__NetBSD__) || defined(__OpenBSD__) || defined(__sun__)

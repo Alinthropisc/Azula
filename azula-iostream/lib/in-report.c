@@ -1,10 +1,10 @@
-#include "../../masscan-master/src/in-report.h"
+#include "in-report.h"
 #include "../../masscan-master/src/masscan-app.h"
 #include "crypto-base64.h"
 #include "../../masscan-master/src/proto-x509.h"
 #include "../../masscan-master/src/proto-banout.h"
 #include "../../masscan-master/src/smack.h"
-#include "../../azula-support/lib/util-malloc.h"
+#include "../../masscan-master/src/util-malloc.h"
 
 #include <assert.h>
 #include <stdlib.h>

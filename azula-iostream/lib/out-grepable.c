@@ -4,7 +4,7 @@
 #include "../../masscan-master/src/masscan-status.h"
 #include "../../masscan-master/src/out-tcp-services.h"
 #include "../../masscan-master/src/massip-port.h"
-#include "../../azula-support/lib/util-safefunc.h"
+#include "../../masscan-master/src/util-safefunc.h"
 
 
 /****************************************************************************

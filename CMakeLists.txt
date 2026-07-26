@@ -9,11 +9,7 @@ set(BOOST_ROOT "/opt/boost-1.91")
 set(Boost_ROOT "/opt/boost-1.91")
 
 
-find_package(Boost 1.91 REQUIRED COMPONENTS
-        filesystem
-        program_options
-        fiber
-)
+find_package(Boost 1.91 REQUIRED COMPONENTS filesystem program_options fiber)
 
 
 
@@ -29,6 +25,18 @@ add_executable(azula main.cpp
         azula-crypto/lib/base64.cc
         azula-crypto/lib/xring.hh
         azula-crypto/lib/xring.cc
+        azula-support/lib/util-safefunc.hh
+        azula-support/lib/util-safefunc.cc
+        azula-support/lib/util-malloc.hh
+        azula-support/lib/util-malloc.cc
+        azula-support/lib/util-checksum.hh
+        azula-support/lib/util-checksum.cc
+        azula-support/lib/util-logger.hh
+        azula-support/lib/util-logger.cc
+        azula-support/lib/util-extract.hh
+        azula-support/lib/util-extract.cc
+        azula-support/lib/util-errormsg.hh
+        azula-support/lib/util-errormsg.cc
 )
 
 add_executable(azula_crypto_tests
@@ -40,15 +48,26 @@ add_executable(azula_crypto_tests
         azula-crypto/lib/xring.cc
 )
 
-target_link_libraries(azula_crypto_tests PRIVATE
-        GTest::gtest_main          # ← правильный target от GoogleTest
-        # если используешь gmock — добавь GTest::gmock
+
+add_executable(azula_support_tests
+        azula-support/tests/test_util_safefunc.cc
+        azula-support/tests/test_util_all.cc
+        azula-support/lib/util-safefunc.cc
+        azula-support/lib/util-malloc.cc
+        azula-support/lib/util-checksum.cc
+        azula-support/lib/util-logger.cc
+        azula-support/lib/util-extract.cc
+        azula-support/lib/util-errormsg.cc
 )
+
+target_link_libraries(azula_crypto_tests PRIVATE GTest::gtest_main GTest::gtest_main)
+target_link_libraries(azula_support_tests PRIVATE GTest::gtest_main GTest::gtest_main)
+
 include(FetchContent)
-FetchContent_Declare(
-    googletest
-    URL https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4be3799d395.zip
-)
+FetchContent_Declare(googletest URL https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4be3799d395.zip)
+
+
+
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest) 
 

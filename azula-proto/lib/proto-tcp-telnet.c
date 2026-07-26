@@ -1,12 +1,12 @@
 #include "../../masscan-master/src/proto-tcp-telnet.h"
 #include "proto-banner1.h"
-#include "../../azula-net/lib/stack-tcp-api.h"
-#include "unusedparm.h"
+#include "../../masscan-master/src/stack-tcp-api.h"
+#include "../../azula-support/lib/unusedparm.h"
 #include "../../masscan-master/src/masscan-app.h"
-#include "util-malloc.h"
+#include "../../masscan-master/src/util-malloc.h"
 #include <ctype.h>
 #include <string.h>
-#include "util-safefunc.h"
+#include "../../masscan-master/src/util-safefunc.h"
 
 struct TelnetOptions {
     unsigned num;

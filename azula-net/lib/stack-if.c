@@ -1,4 +1,4 @@
-#include "rawsock.h"
+#include "../../masscan-master/src/rawsock.h"
 #include "../../masscan-master/src/rawsock-adapter.h"
 
 /***************************************************************************

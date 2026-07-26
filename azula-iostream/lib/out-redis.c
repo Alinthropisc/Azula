@@ -1,7 +1,7 @@
 #include "../../masscan-master/src/output.h"
 #include "../../masscan-master/src/masscan.h"
 #include "../../masscan-master/src/pixie-sockets.h"
-#include "../../azula-support/lib/util-logger.h"
+#include "../../masscan-master/src/util-logger.h"
 #include <ctype.h>
 
 /****************************************************************************

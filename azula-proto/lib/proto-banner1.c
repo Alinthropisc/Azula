@@ -4,7 +4,7 @@
 #include "../../masscan-master/src/smack.h"
 #include "../../masscan-master/src/rawsock-pcapfile.h"
 #include "../../masscan-master/src/proto-preprocess.h"
-#include "../../azula-net/lib/stack-tcp-api.h"
+#include "../../masscan-master/src/stack-tcp-api.h"
 #include "../../masscan-master/src/proto-banner1.h"
 #include "../../masscan-master/src/proto-http.h"
 #include "../../masscan-master/src/proto-ssl.h"
@@ -22,8 +22,8 @@
 #include "../../masscan-master/src/proto-versioning.h"
 #include "../../masscan-master/src/masscan-app.h"
 #include "../../masscan-master/src/scripting.h"
-#include "util-malloc.h"
-#include "util-logger.h"
+#include "../../masscan-master/src/util-malloc.h"
+#include "../../azula-support/lib/util-logger.h"
 #include <ctype.h>
 #include <stdlib.h>
 #include <string.h>

@@ -2,7 +2,7 @@
 #include "../../masscan-master/src/masscan.h"
 #include "../../masscan-master/src/masscan-app.h"
 #include "../../masscan-master/src/masscan-status.h"
-#include "../../azula-support/lib/unusedparm.h"
+#include "../../masscan-master/src/unusedparm.h"
 
 #include <ctype.h>
 

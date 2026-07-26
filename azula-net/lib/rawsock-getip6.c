@@ -11,9 +11,9 @@
 
  I think it'll work the same on any BSD system.
 */
-#include "rawsock.h"
+#include "../../masscan-master/src/rawsock.h"
 #include "util-safefunc.h"
-#include "../../masscan-master/src/massip-parse.h"
+#include "../../azula-engine/lib/massip-parse.h"
 
 /*****************************************************************************
  *****************************************************************************/

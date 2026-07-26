@@ -1,5 +1,5 @@
 #include "../../masscan-master/src/output.h"
-#include "../../azula-engine/lib/masscan.h"
+#include "../../masscan-master/src/masscan.h"
 
 
 /****************************************************************************

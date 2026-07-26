@@ -5,8 +5,8 @@
 #include <stdint.h>
 #include <time.h>
 #include "../../masscan-master/src/massip-addr.h"
-#include "../../azula-net/lib/stack-src.h"
-#include "../../azula-support/lib/unusedparm.h"
+#include "../../masscan-master/src/stack-src.h"
+#include "../../masscan-master/src/unusedparm.h"
 #include "../../masscan-master/src/masscan-app.h"
 
 #define MAX_BANNER_LENGTH 8192

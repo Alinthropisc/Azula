@@ -1,5 +1,5 @@
 #include "../../masscan-master/src/stack-queue.h"
-#include "../../masscan-master/src/pixie-timer.h"
+#include "../../azula-core/lib/pixie-timer.h"
 #include "rawsock.h"
 #include "util-malloc.h"
 #include <string.h>

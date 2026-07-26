@@ -41,9 +41,9 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include "../../masscan-master/src/smack.h"
-#include "util-safefunc.h"
+#include "../../azula-support/lib/util-safefunc.h"
 #include "output.h"
-#include "../../azula-engine/lib/masscan-app.h"
+#include "../../masscan-master/src/masscan-app.h"
 #include "proto-preprocess.h"
 #include "proto-banner1.h"
 #include "../../masscan-master/src/syn-cookie.h"

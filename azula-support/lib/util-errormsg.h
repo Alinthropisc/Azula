@@ -1,6 +1,6 @@
 #ifndef UTIL_ERRORMSG_H
 #define UTIL_ERRORMSG_H
-#include "../../masscan-master/src/massip-addr.h"
+#include "../../azula-engine/lib/massip-addr.h"
 
 void errmsg_init(unsigned long long entropy);
 

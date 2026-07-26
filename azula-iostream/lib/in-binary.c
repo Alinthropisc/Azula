@@ -3,17 +3,17 @@
     translate the "binary" format into any of the other output formats.
 */
 #include "../../masscan-master/src/massip-addr.h"
-#include "../../masscan-master/src/in-binary.h"
+#include "in-binary.h"
 #include "../../masscan-master/src/masscan.h"
 #include "../../masscan-master/src/masscan-app.h"
 #include "../../masscan-master/src/masscan-status.h"
 #include "../../masscan-master/src/main-globals.h"
-#include "output.h"
+#include "../../masscan-master/src/output.h"
 #include "../../masscan-master/src/util-safefunc.h"
-#include "../../masscan-master/src/in-filter.h"
-#include "../../masscan-master/src/in-report.h"
+#include "in-filter.h"
+#include "in-report.h"
 #include "../../masscan-master/src/util-malloc.h"
-#include "../../azula-support/lib/util-logger.h"
+#include "../../masscan-master/src/util-logger.h"
 
 #include <stdlib.h>
 #include <assert.h>

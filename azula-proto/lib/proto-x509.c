@@ -88,9 +88,9 @@ TBSCertificate  ::=  SEQUENCE  {
 #include "../../masscan-master/src/proto-x509.h"
 #include "proto-spnego.h"
 #include "proto-banout.h"
-#include "../../azula-engine/lib/masscan-app.h"
+#include "../../masscan-master/src/masscan-app.h"
 #include "../../masscan-master/src/smack.h"
-#include "util-logger.h"
+#include "../../azula-support/lib/util-logger.h"
 #include <assert.h>
 #include <ctype.h>
 #include <string.h>

@@ -19,7 +19,7 @@
 #include "../../masscan-master/src/stack-queue.h"
 #include "util-safefunc.h"
 #include "util-logger.h"
-#include "../../masscan-master/src/pixie-timer.h"
+#include "../../azula-core/lib/pixie-timer.h"
 #include "proto-preprocess.h"
 #include "util-checksum.h"
 

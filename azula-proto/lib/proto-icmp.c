@@ -1,11 +1,11 @@
 #include "../../masscan-master/src/proto-icmp.h"
 #include "../../masscan-master/src/proto-preprocess.h"
 #include "../../masscan-master/src/syn-cookie.h"
-#include "util-logger.h"
+#include "../../azula-support/lib/util-logger.h"
 #include "output.h"
 #include "../../masscan-master/src/masscan-status.h"
 #include "../../masscan-master/src/massip-port.h"
-#include "../../azula-core/lib/main-dedup.h"
+#include "../../masscan-master/src/main-dedup.h"
 
 
 /***************************************************************************

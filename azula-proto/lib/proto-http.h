@@ -1,7 +1,7 @@
 #ifndef PROTO_HTTP_H
 #define PROTO_HTTP_H
 #include "proto-banner1.h"
-#include "util-bool.h"
+#include "../../azula-support/lib/util-bool.h"
 
 extern struct ProtocolParserStream banner_http;
 

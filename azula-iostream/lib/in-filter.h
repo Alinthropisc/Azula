@@ -3,7 +3,7 @@
 */
 #ifndef IN_FILTER_H
 #define IN_FILTER_H
-#include "../../azula-engine/lib/massip-addr.h"
+#include "../../masscan-master/src/massip-addr.h"
 struct RangeList;
 struct Range6List;
 struct MassIP;

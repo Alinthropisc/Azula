@@ -23,10 +23,10 @@
 #include "proto-banout.h"
 #include "../../masscan-master/src/proto-preprocess.h"
 #include "../../masscan-master/src/syn-cookie.h"
-#include "../../azula-engine/lib/massip-port.h"
+#include "../../masscan-master/src/massip-port.h"
 #include "output.h"
-#include "util-extract.h"
-#include "util-logger.h"
+#include "../../azula-support/lib/util-extract.h"
+#include "../../masscan-master/src/util-logger.h"
 #include <stdarg.h>
 #include <string.h>
 

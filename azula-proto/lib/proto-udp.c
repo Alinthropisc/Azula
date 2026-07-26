@@ -9,10 +9,10 @@
 #include "../../masscan-master/src/proto-zeroaccess.h"
 #include "proto-preprocess.h"
 #include "../../masscan-master/src/syn-cookie.h"
-#include "util-logger.h"
+#include "../../masscan-master/src/util-logger.h"
 #include "output.h"
-#include "../../azula-engine/lib/masscan-status.h"
-#include "unusedparm.h"
+#include "../../masscan-master/src/masscan-status.h"
+#include "../../azula-support/lib/unusedparm.h"
 
 
 /****************************************************************************

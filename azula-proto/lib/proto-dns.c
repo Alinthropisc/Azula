@@ -10,13 +10,13 @@
 #include "../../masscan-master/src/proto-dns-parse.h"
 #include "../../masscan-master/src/proto-preprocess.h"
 #include "../../masscan-master/src/syn-cookie.h"
-#include "util-logger.h"
+#include "../../masscan-master/src/util-logger.h"
 #include "output.h"
 #include "../../masscan-master/src/masscan-app.h"
 #include "proto-banner1.h"
 #include "../../masscan-master/src/massip-port.h"
-#include "../../azula-engine/lib/masscan.h"
-#include "unusedparm.h"
+#include "../../masscan-master/src/masscan.h"
+#include "../../azula-support/lib/unusedparm.h"
 
 
 

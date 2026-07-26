@@ -11,7 +11,7 @@
 #include "proto-preprocess.h"
 #include "output.h"
 #include "proto-banner1.h"
-#include "util-safefunc.h"
+#include "../../azula-support/lib/util-safefunc.h"
 #include <stdio.h>
 #include <string.h>
 

@@ -1,12 +1,12 @@
 #include "../../masscan-master/src/proto-http.h"
 #include "proto-banner1.h"
-#include "../../azula-net/lib/stack-tcp-api.h"
+#include "../../masscan-master/src/stack-tcp-api.h"
 #include "../../masscan-master/src/smack.h"
-#include "unusedparm.h"
-#include "util-safefunc.h"
+#include "../../azula-support/lib/unusedparm.h"
+#include "../../masscan-master/src/util-safefunc.h"
 #include "../../masscan-master/src/masscan-app.h"
-#include "util-malloc.h"
-#include "util-bool.h"
+#include "../../masscan-master/src/util-malloc.h"
+#include "../../masscan-master/src/util-bool.h"
 #include "../../masscan-master/src/stack-tcp-core.h"
 #include <ctype.h>
 #include <stdint.h>

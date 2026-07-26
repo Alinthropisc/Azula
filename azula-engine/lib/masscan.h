@@ -1,7 +1,7 @@
 #ifndef MASSCAN_H
 #define MASSCAN_H
 #include "../../masscan-master/src/massip-addr.h"
-#include "../../azula-support/lib/util-safefunc.h"
+#include "util-safefunc.h"
 #include "stack-src.h"
 #include "../../masscan-master/src/massip.h"
 #include "../../azula-support/lib/util-bool.h"
@@ -11,7 +11,7 @@
 #include <time.h>
 
 #include "../../masscan-master/src/massip.h"
-#include "../../azula-net/lib/stack-queue.h"
+#include "stack-queue.h"
 
 struct Adapter;
 struct TemplateSet;

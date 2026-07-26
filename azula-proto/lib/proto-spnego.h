@@ -1,7 +1,7 @@
 #ifndef PROTO_SPNEGO_H
 #define PROTO_SPNEGO_H
 
-#include "../../masscan-master/src/proto-x509.h"
+#include "proto-x509.h"
 #include "proto-ntlmssp.h"
 
 struct SpnegoDecode

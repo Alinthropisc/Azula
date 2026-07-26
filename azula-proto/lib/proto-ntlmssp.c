@@ -1,8 +1,8 @@
 #include "../../masscan-master/src/proto-ntlmssp.h"
-#include "../../azula-engine/lib/masscan-app.h"
+#include "../../masscan-master/src/masscan-app.h"
 #include "proto-banout.h"
-#include "util-safefunc.h"
-#include "util-malloc.h"
+#include "../../masscan-master/src/util-safefunc.h"
+#include "../../azula-support/lib/util-malloc.h"
 #include <string.h>
 #include <stdlib.h>
 

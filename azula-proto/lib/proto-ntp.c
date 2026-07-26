@@ -5,14 +5,14 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include "../../masscan-master/src/smack.h"
-#include "util-safefunc.h"
+#include "../../masscan-master/src/util-safefunc.h"
 #include "output.h"
-#include "../../azula-engine/lib/masscan-app.h"
+#include "../../masscan-master/src/masscan-app.h"
 #include "../../masscan-master/src/proto-preprocess.h"
 #include "proto-banner1.h"
 #include "../../masscan-master/src/syn-cookie.h"
 #include "../../masscan-master/src/massip-port.h"
-#include "unusedparm.h"
+#include "../../azula-support/lib/unusedparm.h"
 
 
 

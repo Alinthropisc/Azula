@@ -1,7 +1,7 @@
 #ifndef STACK_HANDLE_H
 #define STACK_HANDLE_H
 #include <stdio.h>
-#include "util-bool.h" /* <stdbool.h> */
+#include "../../azula-support/lib/util-bool.h"
 
 struct ProtocolParserStream;
 

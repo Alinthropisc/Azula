@@ -4,18 +4,18 @@
     This uses both "libpcap" on systems, but on Linux, we try to use the
     basic raw sockets, bypassing libpcap for better performance.
 */
-#include "../../masscan-master/src/rawsock.h"
-#include "../../masscan-master/src/templ-pkt.h"
+#include "rawsock.h"
+#include "../../azula-services/lib/templ-pkt.h"
 #include "util-logger.h"
 #include "../../masscan-master/src/main-ptrace.h"
 #include "util-safefunc.h"
-#include "../../masscan-master/src/stub-pcap.h"
-#include "../../masscan-master/src/stub-pfring.h"
-#include "../../masscan-master/src/pixie-timer.h"
+#include "stub-pcap.h"
+#include "stub-pfring.h"
+#include "../../azula-core/lib/pixie-timer.h"
 #include "../../masscan-master/src/main-globals.h"
 #include "proto-preprocess.h"
-#include "stack-arpv4.h"
-#include "stack-ndpv6.h"
+#include "../../masscan-master/src/stack-arpv4.h"
+#include "../../masscan-master/src/stack-ndpv6.h"
 
 #include "unusedparm.h"
 #include "util-malloc.h"

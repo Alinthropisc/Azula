@@ -2,7 +2,7 @@
 #include "../../masscan-master/src/masscan-app.h"
 #include "../../masscan-master/src/masscan-status.h"
 #include "../../masscan-master/src/out-record.h"
-#include "../../azula-support/lib/util-safefunc.h"
+#include "../../masscan-master/src/util-safefunc.h"
 #include <assert.h>
 
 /****************************************************************************
