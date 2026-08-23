@@ -1,17 +1,15 @@
 [workspace]
 members = [
-    "azula-abffapi",
     "azula-core",
     "azula-crypto",
     "azula-engine",
     "azula-iostream",
     "azula-macros",
-    "azula-net",
     "azula-proto",
     "azula-scan",
-    "azula-scripts",
     "azula-services",
     "azula-support",
+    "azula-api",
 ]
 resolver = "2"
 

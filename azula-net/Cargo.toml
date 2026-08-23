@@ -1,9 +1,0 @@
-[package]
-name = "azula-net"
-version.workspace = true
-edition.workspace = true
-repository.workspace = true
-keywords.workspace = true
-categories.workspace = true
-
-[dependencies]
