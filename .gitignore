@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+/target
+.idea
+.vscode
+.codium
+.zed
+.cache
+/cmake-build-debug
+.aws
+.agents
+AGENTS.MD
+.idea
+.codex
+.claude
+.cache
+build/
+/build/
+/cmake/
+/cmake
+/cmake-build-debug
+/cmake-build-debug/

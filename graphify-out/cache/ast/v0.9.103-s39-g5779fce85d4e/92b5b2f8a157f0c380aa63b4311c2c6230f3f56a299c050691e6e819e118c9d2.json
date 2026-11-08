@@ -1,0 +1,1 @@
+{"nodes": [{"id": "$graphify-root$_core_ec_scan_h", "label": "ec_scan.h", "file_type": "code", "source_file": "core/ec_scan.h", "source_location": "L1"}], "edges": [], "raw_calls": [], "parse_errors": {"first_error_line": 4, "multiline_error": false}}
