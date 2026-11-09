@@ -1,1 +1,0 @@
-{"nodes": [{"id": "$graphify-root$_core_ec_passive_h", "label": "ec_passive.h", "file_type": "code", "source_file": "core/ec_passive.h", "source_location": "L1"}], "edges": [], "raw_calls": [], "parse_errors": {"first_error_line": 4, "multiline_error": false}}
